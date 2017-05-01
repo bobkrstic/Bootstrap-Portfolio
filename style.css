@@ -1,0 +1,129 @@
+body {
+	font-family: Arial, "Helvetice Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 34px;
+	color: #777;
+	background: url("images/concrete_seamless.png");
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+#navbar {
+	background: #fff;
+	border-bottom: 2px solid #ccc;
+	position: fixed; 
+	z-index: 99;
+	width: 100%;
+	margin: 0 0 30px;
+	overflow: auto; 
+	color: #fff;
+}
+
+#logo {
+	float: left;
+	width: 250px;
+	height: 90px;
+	font-family: Georgia;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 90px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background: #4aaaa5;
+	padding: 0px;
+}
+
+.navbar-nav {
+	padding-top: 20px;
+}
+
+.page-header { 
+      padding-bottom: 10px;
+     border-bottom: 1px solid #eee; 
+}
+
+
+#about, #contact, #portfolio {
+	padding-right: 30px;
+	padding-left: 30px;
+	border-left: 1px solid #efefef;
+}
+
+#about {
+	border: none;
+}
+
+
+
+.col-sm-8 {
+	margin-top: 120px;
+	margin-bottom: 20px;
+	float: left;
+	padding: 0 30px 30px 30px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.col-sm-4 {
+	margin-top: 120px;
+	margin-bottom: 20px;
+	width: 27%;
+}
+
+h1 {
+	font-family: Georgia, Times, "Times New Roman", Serif;
+	font-weight: 700;
+	color: #4aaaa5;
+}
+
+.panel-title {
+	font-family: Georgia;
+	padding: 25px;
+	font-size: 22px;
+	font-weight: 700;
+	color: #4aaaa5;
+}
+
+#icons {
+	padding-left: 32px;
+}
+
+li a {
+	float: left;
+	margin-right: 10px;
+}
+
+
+footer {
+	padding: 30px 0;
+	clear: both;
+	font-size: 12px;
+	color: #fff;
+	color: #ccc;
+	text-align: center;
+	background: #666;
+	border-top: 8px solid #4aaaa5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
